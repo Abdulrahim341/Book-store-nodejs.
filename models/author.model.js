@@ -8,10 +8,10 @@ const schema = new Schema({
     bio:String,
     birthDate:Date,
     books:[
-        {
-            type:Types.ObjectId,
-            ref:'book'
-        }
+    {
+    type:Types.ObjectId,
+    ref:'book'
+    }
     ]
 })
 
